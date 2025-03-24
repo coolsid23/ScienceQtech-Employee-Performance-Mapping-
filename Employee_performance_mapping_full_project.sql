@@ -45,6 +45,8 @@ ALTER TABLE emp_record_table
 ADD CONSTRAINT fk_manager
 FOREIGN KEY (MANAGER_ID) REFERENCES emp_record_table(EMP_ID);
 
+-- load the csv file 
+-- go to table and click on data import and select the csv files
 
 -- Write a query to fetch EMP_ID, FIRST_NAME, LAST_NAME, GENDER, and DEPARTMENT from the employee record table, andmake a list of employees and details of their department
 
